@@ -1,0 +1,111 @@
+
+/* Project1 Begin*/
+.handleForm{
+    border-radius: 1rem;
+    box-shadow:0px 3px 10px rgba(0,0,0,0.3);
+}
+.form-control.success{
+    border:2px solid green;
+}
+.form-control.error{
+    border:2px solid red;
+}
+.form-text{
+    color:red;
+    visibility:hidden;
+}
+.form-text.error{
+    color: red;
+    visibility: visible;
+}
+/* Project1 Ends*/
+
+
+.container1{
+    box-sizing: border-box;
+    margin:2rem 0;
+   
+}
+.screen {
+    background-color: #fff;
+    height: 70px;
+    width: 100%;
+    
+    transform: rotateX(-45deg);
+    
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+     
+  }
+.innercontainer select{
+    background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.legend{
+    background: rgba(0, 0, 0, 0.1);
+  padding: 5px 2px;
+  border-radius: 5px;
+  color: #777;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left:2rem;
+}
+.seat{
+    height:1rem;
+    width:1rem;
+    background-color: #444451;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin: 2px;
+    
+}
+
+.row1{
+    display: flex;
+    margin-left:3rem;
+}
+.legend li{
+    display: flex;
+}
+.legend label{
+    padding:2px;
+}
+
+.seat:nth-last-of-type(2) {
+    margin-left: 18px;
+  }
+  .seat:nth-of-type(2) {
+    margin-right: 18px;
+  }
+.seat:hover{
+
+    transform:scale(1.2);
+    cursor:pointer;
+}
+.seat.occupied{
+    background-color: white;
+}
+.seat.selected{
+    background-color:#6feaf6;
+}
+.legend .seat:hover{
+    transform:scale(1);
+    cursor:default;
+}
+.seat.occupied:hover{
+    cursor:default;
+    transform:scale(1);
+}
+#statement{
+    margin-left:0.7rem;
+}
+#statement span{
+    color: #6feaf6;
+}
